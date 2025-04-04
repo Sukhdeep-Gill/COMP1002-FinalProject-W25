@@ -1,0 +1,200 @@
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: rgba(50, 30, 10, 0.8);
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /*Left, center, right alignment*/
+  border-bottom: 4px double #d6b98c;
+}
+
+.logo img {
+  width: 130px;
+}
+
+header {
+  background-color:  rgba;
+  color: #0a0909;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #e9dbdb;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d9534f;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #eee6e0fb;
+  color: #12120f;
+}
+h1, h2 {
+  text-align: center;
+}
+
+
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-form, .contact-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #d9534f;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #c9302c;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f7f7f7d3;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.faq-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.faq button{
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faq button:hover {
+  background: #c9302c;
+}
+.faq{
+  
+  
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #eee6e0fb;
+    color: #12120f;
+
+}
+.container{
+  
+  
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #eee6e0fb;
+    color: #12120f;
+
+
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .contact-form, .contact-info {
+    padding: 10px;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
